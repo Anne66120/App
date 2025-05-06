@@ -6,9 +6,9 @@ library(DT)
 library(htmltools)
 
 # Fichiers de sauvegarde
-planning_file <- "data/planning.csv"
-messages_file <- "data/messages.csv"
-patients_file <- "data/patients.csv"
+planning_file <- "planning.csv"
+messages_file <- "messages.csv"
+patients_file <- "patients.csv"
 dir.create("data", showWarnings = FALSE)
 
 # Initialisation des fichiers
